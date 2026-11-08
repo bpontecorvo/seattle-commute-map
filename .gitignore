@@ -1,0 +1,13 @@
+# secrets: never commit
+.ors_key
+.census_key
+.traveltime_keys
+
+# local environment
+.venv/
+__pycache__/
+
+# large raw data (re-download with the scripts; see README)
+data/
+output/*.geojson
+output/
